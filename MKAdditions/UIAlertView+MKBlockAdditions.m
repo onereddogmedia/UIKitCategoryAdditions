@@ -57,7 +57,6 @@ static char CANCEL_IDENTIFER;
     for(NSString *buttonTitle in otherButtons)
         [alert addButtonWithTitle:buttonTitle];
     
-    [alert show];
     return [alert autorelease];
 }
 
